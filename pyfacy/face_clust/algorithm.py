@@ -25,3 +25,7 @@ class Face_Clust_Algorithm():
 			save_faces(self.tot_faces_list,self.paths,save_location)
 		else:
 			save_faces(self.tot_faces_list,self.paths)
+			
+	def get_labels(self):
+		
+		return self.tot_faces_list,self.paths
